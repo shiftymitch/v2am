@@ -68,7 +68,7 @@ h1 {
 }
 
 button {
-  padding: 20px 40px;
+  padding: 10px 40px;
   font-size: 18px;
   border: none;
   cursor: pointer;
@@ -113,13 +113,14 @@ button:hover {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  margin: 50px 0;
 }
 
 /* CARDS */
 .artist-card {
   position: relative;
-  width: 275px;
-  height: 450px;
+  width: 250px;
+  height: 400px;
   overflow: hidden;
   border-radius: 15px;
   background: linear-gradient(135deg, #1e1e1e, #444);
@@ -205,6 +206,10 @@ button:hover {
   padding: 20px;
   border-radius: 15px; /* Matches the card's rounded corners */
   box-sizing: border-box; /* Ensure padding is included in size */
+}
+
+.artist-card-back p {
+  font-size: .9rem;
 }
 
 .profile-photo {
