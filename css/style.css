@@ -107,12 +107,11 @@ button:hover {
 }
 
 .artist-grid {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(260px, 1fr));
-    max-width: 1200px;
-    margin: 50px auto;
-    gap: 20px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 50px 0;
 }
 
 /* CARDS */
